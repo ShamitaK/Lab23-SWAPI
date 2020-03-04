@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "PlanetById";
+}
+
+@model Planet
+<h1>Planet By Id</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Planet Name</th>
+        <th>Rotational Period</th>
+        <th>Orbital Period</th>
+        <th>Diameter</th>
+        <th>Climate</th>
+        <th>Gravity</th>
+        <th>Terrain</th>
+        <th>Surface Water</th>
+        <th>Population</th>
+    </tr>
+    <tr>
+        <td>@Model.Name</td>
+        <td>@Model.Rotation_Period</td>
+        <td>@Model.Orbital_Period</td>
+        <td>@Model.Diameter</td>
+        <td>@Model.Climate</td>
+        <td>@Model.Gravity</td>
+        <td>@Model.Terrain</td>
+        <td>@Model.Surface_Water</td>
+        <td>@Model.Population</td>
+    </tr>
+</table>

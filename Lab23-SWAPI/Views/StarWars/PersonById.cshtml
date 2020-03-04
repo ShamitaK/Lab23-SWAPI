@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "PersonById";
+}
+
+@model CharacterRoot
+
+<h1>Characters</h1>
+<table class="table table-bordered">
+    <tr>
+        <th>Name</th>
+        <th>Height</th>
+        <th>Mass</th>
+        <th>Hair Color</th>
+        <th>Skin Color</th>
+        <th>Eye Color</th>
+        <th>Birthyear</th>
+        <th>Gender</th>
+    </tr>
+<tr>
+    <td>@Model.Name</td>
+    <td>@Model.Height</td>
+    <td>@Model.Mass</td>
+    <td>@Model.Hair_Color</td>
+    <td>@Model.Skin_Color</td>
+    <td>@Model.Eye_Color</td>
+    <td>@Model.Birth_year</td>
+    <td>@Model.Gender</td>
+</tr>
+</table>
